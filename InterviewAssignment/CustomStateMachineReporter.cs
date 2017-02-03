@@ -37,7 +37,11 @@ namespace InterviewAssignment
         public string StateToString(TState state, string separator = ".")
         {
 
-            //Your assignment is here! 
+            //Your assignment is here!
+            //Tip: You find state machine hierarchy on States property (or myStates field). 
+            //You should go through the states and print that on what hierarchy path the current state
+            //is found. So if state is Initializing this method should return "Down.Initializing" because
+            //"Initializing" is substate of "Down".
             throw new NotImplementedException();
         }
     }
